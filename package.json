@@ -3,11 +3,13 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "front": "ng serve",
+    "start": "concurrently -n FRONT,API -c bgRed.bold,bgGreen.bold.yellow \"yarn front\" \"yarn api\"",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "api": "yarn --cwd api start"
   },
   "private": true,
   "dependencies": {

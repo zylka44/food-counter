@@ -12,6 +12,6 @@ export class MenuService {
   constructor(private http: HttpClient) {}
 
   getDishes$(): Observable<Dish[]> {
-    return this.http.get<Dish[]>(`${environment.apiUrl}/dishes`).pipe(map((data) => data));
+    return this.http.get<Dish[]>(`${environment.apiEndpoint}/dishes`).pipe(map((data) => data));
   }
 }

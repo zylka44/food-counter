@@ -1,0 +1,110 @@
+{
+  "dishes": [
+    {
+      "id": 1,
+      "name": "pizza",
+      "difficulty": "70",
+      "preparingTime": 2,
+      "ingredients": []
+    },
+    {
+      "id": 2,
+      "name": "naleśniki",
+      "difficulty": "10",
+      "preparingTime": 2,
+      "ingredients": []
+    },
+    {
+      "id": 3,
+      "name": "rosół",
+      "difficulty": "30",
+      "preparingTime": 2,
+      "ingredients": []
+    },
+    {
+      "id": 4,
+      "name": "zupa owocowa",
+      "difficulty": "65",
+      "preparingTime": 2,
+      "ingredients": []
+    },
+    {
+      "id": 5,
+      "name": "chaczapuri",
+      "difficulty": "82",
+      "preparingTime": 2,
+      "ingredients": []
+    },
+    {
+      "id": 6,
+      "name": "kopytka",
+      "difficulty": "66",
+      "preparingTime": 2,
+      "ingredients": []
+    },
+    {
+      "id": 7,
+      "name": "owsianka",
+      "difficulty": "44",
+      "preparingTime": 2,
+      "ingredients": []
+    },
+    {
+      "id": 8,
+      "name": "ratatuj",
+      "difficulty": "79",
+      "preparingTime": 2,
+      "ingredients": []
+    },
+    {
+      "id": 9,
+      "name": "szkszuka",
+      "difficulty": "54",
+      "preparingTime": 2,
+      "ingredients": []
+    },
+    {
+      "id": 10,
+      "name": "spagetti",
+      "difficulty": "57",
+      "preparingTime": 2,
+      "ingredients": []
+    },
+    {
+      "id": 11,
+      "name": "sushi",
+      "difficulty": "91",
+      "preparingTime": 2,
+      "ingredients": []
+    },
+    {
+      "id": 12,
+      "name": "zupa pomidorowa",
+      "difficulty": "58",
+      "preparingTime": 2,
+      "ingredients": []
+    },
+    {
+      "id": 13,
+      "name": "grochówka",
+      "difficulty": "32",
+      "preparingTime": 2,
+      "ingredients": []
+    },
+    {
+      "id": 14,
+      "name": "szarlotka",
+      "difficulty": "71",
+      "preparingTime": 2,
+      "ingredients": []
+    },
+    {
+      "id": 15,
+      "name": "golonka",
+      "difficulty": "88",
+      "preparingTime": 2,
+      "ingredients": []
+    }
+  ],
+  "ingredients": []
+}
