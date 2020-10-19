@@ -1,0 +1,8 @@
+<div>Szukaj po nazwie dania: <input type="text" id="dishName" /></div>
+<button id="searchButton" (click)="onSearch()">szukaj</button>
+
+<div class="dishes">
+  <ng-container *ngFor="let dish of dishesDisplayed; let inx = index">
+    <app-menu-dish class="dish" [dish]="dish" (dishSelected)="onSelect($event)"></app-menu-dish>
+  </ng-container>
+</div>

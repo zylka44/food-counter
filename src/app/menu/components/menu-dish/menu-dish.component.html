@@ -1,0 +1,9 @@
+<div>{{ dish.id }}. {{ dish.name | uppercase }}</div>
+<div class="select" [style.color]="isSelected ? ' #fcd03f' : 'lightgray'" (click)="onSelect()">
+  wybierz
+</div>
+<div>czas przygotowania: {{ dish.preparingTime }} h</div>
+<div>
+  składniki:
+  <span *ngFor="let ingredient of dish.ingredients">{{ ingredient }}, </span>
+</div>

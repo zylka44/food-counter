@@ -1,0 +1,5 @@
+<app-menu-searching
+  [dishes]="dishes$ | async"
+  (selDishes)="onDishesSelected($event)"
+></app-menu-searching>
+<app-menu-results [selectedDishes]="selectedDishes"></app-menu-results>
