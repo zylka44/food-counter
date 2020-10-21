@@ -6,4 +6,7 @@ export const loadMenuSuccess = createAction(
   props<{ menu: Menu }>()
 );
 
-export const addDish = createAction('[Menu Page] Create Dish', props<{ dish: Dish }>());
+export const addDish = createAction(
+  '[Menu Page] Create Dish',
+  props<{ dish: Dish }>()
+);

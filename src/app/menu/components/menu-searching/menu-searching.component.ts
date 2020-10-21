@@ -21,13 +21,17 @@ export class MenuSearchingComponent implements OnInit {
 
   onSearch() {
     const dishName = document.getElementById('dishName')[`value`].toLowerCase();
-    this.dishesDisplayed = this.dishes.filter((dish) => dish.name.includes(dishName));
+    this.dishesDisplayed = this.dishes.filter((dish) =>
+      dish.name.includes(dishName)
+    );
   }
 
   onSelect(dishId) {
     const currentDish = this.dishes.find((dish) => dish.id === dishId);
     if (this.selectedDishes.some((dish) => dish.id === currentDish.id)) {
-      const idToSplice = this.selectedDishes.findIndex((dish) => dish.id === dishId);
+      const idToSplice = this.selectedDishes.findIndex(
+        (dish) => dish.id === dishId
+      );
       this.selectedDishes.splice(idToSplice, 1);
     } else {
       this.selectedDishes.push(currentDish);
