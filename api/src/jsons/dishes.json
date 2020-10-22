@@ -104,6 +104,13 @@
       "difficulty": "88",
       "preparingTime": 2,
       "ingredients": ["mięso"]
+    },
+    {
+      "id": 16,
+      "name": "burger",
+      "difficulty": "88",
+      "preparingTime": 2,
+      "ingredients": ["bułka", "mięso"]
     }
   ],
   "ingredients": ["mąka", "drożdże", "oliwa", "ser", "pomidor", "bazylia", "mleko", "jajko", "masło", "mięso", "marchew", "pietruszka", "cebula", "wiśnie", "ziemniak", "płatki owisiane", "bakłażan", "cukinia", "papryka", "szczypiorek", "makaron", "ryż", "algi", "awokado", "łosoś", "rosół", "groch", "kiełbasa", "jabłka"]

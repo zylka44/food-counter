@@ -1,11 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
-import { map } from 'rxjs/operators';
 import { Dish, Menu } from 'src/app/core/models/menu';
-import {
-  selectAllDishes,
-  selectMenu,
-} from 'src/app/core/store/selectors/menu.selectors';
+import { selectAllDishes } from 'src/app/core/store/selectors/menu.selectors';
 
 @Component({
   selector: 'app-menu',
@@ -13,14 +9,14 @@ import {
   styleUrls: ['./menu.component.scss'],
 })
 export class MenuComponent implements OnInit {
-  dishes$ = this.store.select(selectMenu).subscribe(console.log);
+  dishes$ = this.store.select(selectAllDishes);
   selectedDishes: Dish[];
 
   constructor(private store: Store<{ menu: Menu }>) {}
 
-  ngOnInit() {}
+  ngOnInit(): void {}
 
-  onDishesSelected(dishes: Dish[]) {
+  onDishesSelected(dishes: Dish[]): void {
     this.selectedDishes = dishes;
   }
 }
